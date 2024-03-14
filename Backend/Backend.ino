@@ -219,8 +219,8 @@ void adjustSolenoidValves() {
 
   controlSolenoid(solenoidPinH1F, solenoidPinH1E, pressureDifferenceH1);
   controlSolenoid(solenoidPinH2F, solenoidPinH2E, pressureDifferenceH2);
-  //controlSolenoid(solenoidPinH3F, solenoidPinH3E, pressureDifferenceH3);
-  //controlSolenoid(solenoidPinH4F, solenoidPinH4E, pressureDifferenceH4);
+  controlSolenoid(solenoidPinH3F, solenoidPinH3E, pressureDifferenceH3);
+  controlSolenoid(solenoidPinH4F, solenoidPinH4E, pressureDifferenceH4);
 }
 
 void serializeAndPrintData() {
